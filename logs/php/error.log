@@ -1,0 +1,799 @@
+[25-Sep-2020 16:50:45 UTC] PHP Parse error:  syntax error, unexpected '$count' (T_VARIABLE), expecting ',' or ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[25-Sep-2020 16:51:30 UTC] PHP Parse error:  syntax error, unexpected '$counter' (T_VARIABLE), expecting ',' or ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[26-Sep-2020 17:20:03 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[26-Sep-2020 17:21:10 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[26-Sep-2020 17:42:25 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 4
+[30-Sep-2020 04:01:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 50
+[30-Sep-2020 17:22:10 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 36
+[30-Sep-2020 17:30:05 UTC] PHP Parse error:  syntax error, unexpected '>' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 32
+[01-Oct-2020 03:11:25 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/footer.php on line 17
+[01-Oct-2020 03:18:44 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 19
+[01-Oct-2020 03:41:24 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 36
+[01-Oct-2020 03:41:45 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 36
+[12-Oct-2020 19:50:11 UTC] PHP Parse error:  syntax error, unexpected 'the_author' (T_STRING), expecting ',' or ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive.php on line 11
+[14-Oct-2020 18:38:30 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 47
+[14-Oct-2020 18:54:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_post_data() in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:62
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/mattwood...')
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php(17): require('/Users/mattwood...')
+#3 {main}
+  thrown in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 62
+[14-Oct-2020 20:05:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enque_style() in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:12
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php(287): university_files('')
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/script-loader.php(1999): do_action('wp_enqueue_scri...')
+#4 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_f in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
+[14-Oct-2020 20:06:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enque_style() in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:12
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php(287): university_files('')
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/script-loader.php(1999): do_action('wp_enqueue_scri...')
+#4 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_f in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
+[14-Oct-2020 20:51:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 25 and at least 2 expected in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:403
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php(25): add_action('')
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-settings.php(514): include('/Users/mattwood...')
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-config.php(77): require_once('/Users/mattwood...')
+#3 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-load.php(37): require_once('/Users/mattwood...')
+#4 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Us in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php on line 403
+[14-Oct-2020 21:01:44 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 32
+[15-Oct-2020 02:37:19 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 24
+[15-Oct-2020 03:17:07 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 59
+[15-Oct-2020 03:30:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 43 and exactly 1 expected in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/link-template.php:1213
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(43): get_post_type_archive_link()
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/mattwood...')
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/mattwood...')
+#3 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php(17): require('/Users/mattwood...')
+#4 {main}
+  thrown in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/link-template.php on line 1213
+[15-Oct-2020 03:36:51 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 21
+[01-Jun-2021 21:30:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function the_field(), 0 passed in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28 and at least 1 expected in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:79
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(28): the_field()
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/mattwood...')
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/mattwood...')
+#3 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php(17): require('/Users/mattwood...')
+#4 {main}
+  thrown in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 79
+[01-Jun-2021 21:56:17 UTC] PHP Parse error:  syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 31
+[01-Jun-2021 22:10:11 UTC] PHP Parse error:  syntax error, unexpected 'AND' (T_LOGICAL_AND) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 26
+[01-Jun-2021 22:10:13 UTC] PHP Parse error:  syntax error, unexpected 'AND' (T_LOGICAL_AND) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 26
+[01-Jun-2021 22:14:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 30
+[01-Jun-2021 22:15:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 30
+[01-Jun-2021 22:17:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 31
+[02-Jun-2021 18:27:38 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 29
+[02-Jun-2021 18:29:27 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 29
+[02-Jun-2021 18:37:17 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 40
+[02-Jun-2021 18:37:17 UTC] PHP Stack trace:
+[02-Jun-2021 18:37:17 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[02-Jun-2021 18:37:17 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[02-Jun-2021 18:37:17 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[02-Jun-2021 18:37:17 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[02-Jun-2021 18:37:17 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 41
+[02-Jun-2021 18:37:17 UTC] PHP Stack trace:
+[02-Jun-2021 18:37:17 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[02-Jun-2021 18:37:17 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[02-Jun-2021 18:37:17 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[02-Jun-2021 18:37:17 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[02-Jun-2021 18:37:17 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 42
+[02-Jun-2021 18:37:17 UTC] PHP Stack trace:
+[02-Jun-2021 18:37:17 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[02-Jun-2021 18:37:17 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[02-Jun-2021 18:37:17 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[02-Jun-2021 18:37:17 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[02-Jun-2021 18:44:59 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 48
+[02-Jun-2021 18:47:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function posts() in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:47
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/mattwood...')
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php(17): require('/Users/mattwood...')
+#3 {main}
+  thrown in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 47
+[07-Jun-2021 21:32:41 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/includes/translation-install.php on line 68
+[07-Jun-2021 21:32:41 UTC] PHP Stack trace:
+[07-Jun-2021 21:32:41 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/options-general.php:0
+[07-Jun-2021 21:32:41 UTC] PHP   2. wp_get_available_translations() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/options-general.php:159
+[07-Jun-2021 21:32:41 UTC] PHP   3. translations_api() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/includes/translation-install.php:133
+[07-Jun-2021 21:32:41 UTC] PHP   4. trigger_error() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/includes/translation-install.php:68
+[07-Jun-2021 22:02:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:46
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/mattwood...')
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php(17): require('/Users/mattwood...')
+#3 {main}
+  thrown in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[07-Jun-2021 22:08:43 UTC] PHP Parse error:  syntax error, unexpected 'Professors' (T_STRING), expecting ',' or ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 41
+[07-Jun-2021 22:08:56 UTC] PHP Parse error:  syntax error, unexpected 'Professors' (T_STRING), expecting ',' or ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 41
+[07-Jun-2021 22:09:12 UTC] PHP Parse error:  syntax error, unexpected '/' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 41
+[08-Jun-2021 17:55:54 UTC] PHP Warning:  Use of undefined constant page_banner - assumed 'page_banner' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 8
+[08-Jun-2021 17:55:54 UTC] PHP Stack trace:
+[08-Jun-2021 17:55:54 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 17:55:54 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 17:55:54 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 17:55:54 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 17:56:05 UTC] PHP Warning:  Use of undefined constant page - assumed 'page' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 8
+[08-Jun-2021 17:56:05 UTC] PHP Stack trace:
+[08-Jun-2021 17:56:05 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 17:56:05 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 17:56:05 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 17:56:05 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 17:56:05 UTC] PHP Warning:  Use of undefined constant banner - assumed 'banner' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 8
+[08-Jun-2021 17:56:05 UTC] PHP Stack trace:
+[08-Jun-2021 17:56:05 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 17:56:05 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 17:56:05 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 17:56:05 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 17:56:05 UTC] PHP Warning:  A non-numeric value encountered in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 8
+[08-Jun-2021 17:56:05 UTC] PHP Stack trace:
+[08-Jun-2021 17:56:05 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 17:56:05 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 17:56:05 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 17:56:05 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 17:56:05 UTC] PHP Warning:  A non-numeric value encountered in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 8
+[08-Jun-2021 17:56:05 UTC] PHP Stack trace:
+[08-Jun-2021 17:56:05 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 17:56:05 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 17:56:05 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 17:56:05 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 17:56:08 UTC] PHP Warning:  Use of undefined constant page - assumed 'page' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 8
+[08-Jun-2021 17:56:08 UTC] PHP Stack trace:
+[08-Jun-2021 17:56:08 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 17:56:08 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 17:56:08 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 17:56:08 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 17:56:08 UTC] PHP Warning:  Use of undefined constant banner - assumed 'banner' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 8
+[08-Jun-2021 17:56:08 UTC] PHP Stack trace:
+[08-Jun-2021 17:56:08 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 17:56:08 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 17:56:08 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 17:56:08 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 17:56:08 UTC] PHP Warning:  A non-numeric value encountered in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 8
+[08-Jun-2021 17:56:08 UTC] PHP Stack trace:
+[08-Jun-2021 17:56:08 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 17:56:08 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 17:56:08 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 17:56:08 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 17:56:08 UTC] PHP Warning:  A non-numeric value encountered in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 8
+[08-Jun-2021 17:56:08 UTC] PHP Stack trace:
+[08-Jun-2021 17:56:08 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 17:56:08 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 17:56:08 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 17:56:08 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:06:22 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 16
+[08-Jun-2021 18:07:59 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 15
+[08-Jun-2021 18:08:23 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 15
+[08-Jun-2021 18:20:38 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 7 and exactly 1 expected in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php(7): pageBanner()
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/mattwood...')
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/mattwood...')
+#3 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php(17): require('/Users/mattwood...')
+#4 {main}
+  thrown in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[08-Jun-2021 18:24:22 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[08-Jun-2021 18:24:22 UTC] PHP Stack trace:
+[08-Jun-2021 18:24:22 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 18:24:22 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 18:24:22 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 18:24:22 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:24:22 UTC] PHP   5. pageBanner() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+[08-Jun-2021 18:24:22 UTC] PHP Warning:  Illegal string offset 'subtitle' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[08-Jun-2021 18:24:22 UTC] PHP Stack trace:
+[08-Jun-2021 18:24:22 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 18:24:22 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 18:24:22 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 18:24:22 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:24:22 UTC] PHP   5. pageBanner() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+[08-Jun-2021 18:24:38 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[08-Jun-2021 18:24:38 UTC] PHP Stack trace:
+[08-Jun-2021 18:24:38 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 18:24:38 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 18:24:38 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 18:24:38 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:24:38 UTC] PHP   5. pageBanner() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+[08-Jun-2021 18:24:38 UTC] PHP Warning:  Illegal string offset 'subtitle' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[08-Jun-2021 18:24:38 UTC] PHP Stack trace:
+[08-Jun-2021 18:24:38 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 18:24:38 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 18:24:38 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 18:24:38 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:24:38 UTC] PHP   5. pageBanner() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+[08-Jun-2021 18:26:07 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[08-Jun-2021 18:26:07 UTC] PHP Stack trace:
+[08-Jun-2021 18:26:07 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 18:26:07 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 18:26:07 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 18:26:07 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:26:07 UTC] PHP   5. pageBanner() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+[08-Jun-2021 18:26:07 UTC] PHP Warning:  Illegal string offset 'subtitle' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[08-Jun-2021 18:26:07 UTC] PHP Stack trace:
+[08-Jun-2021 18:26:07 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 18:26:07 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 18:26:07 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 18:26:07 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:26:07 UTC] PHP   5. pageBanner() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+[08-Jun-2021 18:26:32 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[08-Jun-2021 18:26:32 UTC] PHP Stack trace:
+[08-Jun-2021 18:26:32 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 18:26:32 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 18:26:32 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 18:26:32 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:26:32 UTC] PHP   5. pageBanner() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+[08-Jun-2021 18:26:32 UTC] PHP Warning:  Illegal string offset 'subtitle' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[08-Jun-2021 18:26:32 UTC] PHP Stack trace:
+[08-Jun-2021 18:26:32 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 18:26:32 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 18:26:32 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 18:26:32 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:26:32 UTC] PHP   5. pageBanner() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+[08-Jun-2021 18:26:36 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[08-Jun-2021 18:26:36 UTC] PHP Stack trace:
+[08-Jun-2021 18:26:36 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 18:26:36 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 18:26:36 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 18:26:36 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:26:36 UTC] PHP   5. pageBanner() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+[08-Jun-2021 18:26:36 UTC] PHP Warning:  Illegal string offset 'subtitle' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[08-Jun-2021 18:26:36 UTC] PHP Stack trace:
+[08-Jun-2021 18:26:36 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 18:26:36 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 18:26:36 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 18:26:36 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:26:36 UTC] PHP   5. pageBanner() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+[08-Jun-2021 18:27:35 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[08-Jun-2021 18:27:35 UTC] PHP Stack trace:
+[08-Jun-2021 18:27:35 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 18:27:35 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 18:27:35 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 18:27:35 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:27:35 UTC] PHP   5. pageBanner() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+[08-Jun-2021 18:27:35 UTC] PHP Warning:  Illegal string offset 'subtitle' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[08-Jun-2021 18:27:35 UTC] PHP Stack trace:
+[08-Jun-2021 18:27:35 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 18:27:35 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 18:27:35 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 18:27:35 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:27:35 UTC] PHP   5. pageBanner() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+[08-Jun-2021 18:28:51 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[08-Jun-2021 18:28:51 UTC] PHP Stack trace:
+[08-Jun-2021 18:28:51 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 18:28:51 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 18:28:51 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 18:28:51 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:28:51 UTC] PHP   5. pageBanner() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+[08-Jun-2021 18:28:51 UTC] PHP Warning:  Illegal string offset 'subtitle' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[08-Jun-2021 18:28:51 UTC] PHP Stack trace:
+[08-Jun-2021 18:28:51 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 18:28:51 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 18:28:51 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 18:28:51 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:28:51 UTC] PHP   5. pageBanner() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+[08-Jun-2021 18:28:54 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[08-Jun-2021 18:28:54 UTC] PHP Stack trace:
+[08-Jun-2021 18:28:54 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 18:28:54 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 18:28:54 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 18:28:54 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:28:54 UTC] PHP   5. pageBanner() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+[08-Jun-2021 18:28:54 UTC] PHP Warning:  Illegal string offset 'subtitle' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[08-Jun-2021 18:28:54 UTC] PHP Stack trace:
+[08-Jun-2021 18:28:54 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[08-Jun-2021 18:28:54 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[08-Jun-2021 18:28:54 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:19
+[08-Jun-2021 18:28:54 UTC] PHP   4. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php:106
+[08-Jun-2021 18:28:54 UTC] PHP   5. pageBanner() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+[08-Jun-2021 18:43:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 7 and exactly 1 expected in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php(7): pageBanner()
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/mattwood...')
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/mattwood...')
+#3 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php(17): require('/Users/mattwood...')
+#4 {main}
+  thrown in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[08-Jun-2021 18:45:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 7 and exactly 1 expected in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php(7): pageBanner()
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/mattwood...')
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/mattwood...')
+#3 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php(17): require('/Users/mattwood...')
+#4 {main}
+  thrown in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[08-Jun-2021 18:46:42 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 9
+[08-Jun-2021 18:46:44 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 9
+[08-Jun-2021 18:47:43 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 9
+[08-Jun-2021 18:47:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 7 and exactly 1 expected in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php(7): pageBanner()
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/mattwood...')
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/mattwood...')
+#3 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php(17): require('/Users/mattwood...')
+#4 {main}
+  thrown in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[08-Jun-2021 18:47:51 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 9
+[08-Jun-2021 18:48:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 7 and exactly 1 expected in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php(7): pageBanner()
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/mattwood...')
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/mattwood...')
+#3 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php(17): require('/Users/mattwood...')
+#4 {main}
+  thrown in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[08-Jun-2021 18:49:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 7 and exactly 1 expected in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(7): pageBanner()
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/mattwood...')
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/mattwood...')
+#3 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php(17): require('/Users/mattwood...')
+#4 {main}
+  thrown in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
+[08-Jun-2021 20:06:47 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive-event.php on line 4
+[08-Jun-2021 21:01:51 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 30
+[08-Jun-2021 21:02:04 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 32
+[09-Jun-2021 21:58:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 87
+[11-Jun-2021 21:50:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getField() in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-campus.php:18
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/mattwood...')
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php(17): require('/Users/mattwood...')
+#3 {main}
+  thrown in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 18
+[11-Jun-2021 22:04:29 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 88
+[11-Jun-2021 22:12:51 UTC] PHP Parse error:  syntax error, unexpected '/' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 93
+[11-Jun-2021 22:13:34 UTC] PHP Parse error:  syntax error, unexpected '/' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 93
+[16-Jun-2021 17:07:39 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[16-Jun-2021 17:07:39 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[16-Jun-2021 17:07:58 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[16-Jun-2021 17:08:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[16-Jun-2021 17:08:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[17-Jun-2021 16:10:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 1
+[17-Jun-2021 16:11:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 1
+[17-Jun-2021 16:13:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 1
+[17-Jun-2021 16:15:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 1
+[17-Jun-2021 16:17:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 1
+[17-Jun-2021 16:19:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 1
+[17-Jun-2021 16:21:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 1
+[17-Jun-2021 16:24:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 1
+[17-Jun-2021 16:26:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 1
+[17-Jun-2021 16:32:10 UTC] PHP Fatal error:  Uncaught Error: Undefined class constant 'readable' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:7
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php(292): universityRegisterSearch(Object(WP_REST_Server))
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api.php(521): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api.php(347): rest_get_server()
+#5 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-ho in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 7
+[17-Jun-2021 16:41:02 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 14
+[17-Jun-2021 16:41:19 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 14
+[17-Jun-2021 16:53:02 UTC] PHP Warning:  Use of undefined constant get_the_title - assumed 'get_the_title' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 22
+[17-Jun-2021 16:53:02 UTC] PHP Stack trace:
+[17-Jun-2021 16:53:02 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[17-Jun-2021 16:53:02 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[17-Jun-2021 16:53:02 UTC] PHP   3. wp() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:16
+[17-Jun-2021 16:53:02 UTC] PHP   4. WP->main() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/functions.php:1291
+[17-Jun-2021 16:53:02 UTC] PHP   5. WP->parse_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:750
+[17-Jun-2021 16:53:02 UTC] PHP   6. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:388
+[17-Jun-2021 16:53:02 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[17-Jun-2021 16:53:02 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[17-Jun-2021 16:53:02 UTC] PHP   9. rest_api_loaded() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[17-Jun-2021 16:53:02 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api.php:354
+[17-Jun-2021 16:53:02 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[17-Jun-2021 16:53:02 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[17-Jun-2021 16:53:02 UTC] PHP  13. universitySearchResults() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[17-Jun-2021 16:53:02 UTC] PHP Warning:  Use of undefined constant get_the_permalink - assumed 'get_the_permalink' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 23
+[17-Jun-2021 16:53:02 UTC] PHP Stack trace:
+[17-Jun-2021 16:53:02 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[17-Jun-2021 16:53:02 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[17-Jun-2021 16:53:02 UTC] PHP   3. wp() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:16
+[17-Jun-2021 16:53:02 UTC] PHP   4. WP->main() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/functions.php:1291
+[17-Jun-2021 16:53:02 UTC] PHP   5. WP->parse_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:750
+[17-Jun-2021 16:53:02 UTC] PHP   6. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:388
+[17-Jun-2021 16:53:02 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[17-Jun-2021 16:53:02 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[17-Jun-2021 16:53:02 UTC] PHP   9. rest_api_loaded() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[17-Jun-2021 16:53:02 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api.php:354
+[17-Jun-2021 16:53:02 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[17-Jun-2021 16:53:02 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[17-Jun-2021 16:53:02 UTC] PHP  13. universitySearchResults() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[17-Jun-2021 16:53:02 UTC] PHP Warning:  Use of undefined constant get_the_title - assumed 'get_the_title' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 22
+[17-Jun-2021 16:53:02 UTC] PHP Stack trace:
+[17-Jun-2021 16:53:02 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[17-Jun-2021 16:53:02 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[17-Jun-2021 16:53:02 UTC] PHP   3. wp() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:16
+[17-Jun-2021 16:53:02 UTC] PHP   4. WP->main() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/functions.php:1291
+[17-Jun-2021 16:53:02 UTC] PHP   5. WP->parse_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:750
+[17-Jun-2021 16:53:02 UTC] PHP   6. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:388
+[17-Jun-2021 16:53:02 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[17-Jun-2021 16:53:02 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[17-Jun-2021 16:53:02 UTC] PHP   9. rest_api_loaded() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[17-Jun-2021 16:53:02 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api.php:354
+[17-Jun-2021 16:53:02 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[17-Jun-2021 16:53:02 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[17-Jun-2021 16:53:02 UTC] PHP  13. universitySearchResults() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[17-Jun-2021 16:53:02 UTC] PHP Warning:  Use of undefined constant get_the_permalink - assumed 'get_the_permalink' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 23
+[17-Jun-2021 16:53:02 UTC] PHP Stack trace:
+[17-Jun-2021 16:53:02 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[17-Jun-2021 16:53:02 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[17-Jun-2021 16:53:02 UTC] PHP   3. wp() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:16
+[17-Jun-2021 16:53:02 UTC] PHP   4. WP->main() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/functions.php:1291
+[17-Jun-2021 16:53:02 UTC] PHP   5. WP->parse_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:750
+[17-Jun-2021 16:53:02 UTC] PHP   6. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:388
+[17-Jun-2021 16:53:02 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[17-Jun-2021 16:53:02 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[17-Jun-2021 16:53:02 UTC] PHP   9. rest_api_loaded() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[17-Jun-2021 16:53:02 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api.php:354
+[17-Jun-2021 16:53:02 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[17-Jun-2021 16:53:02 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[17-Jun-2021 16:53:02 UTC] PHP  13. universitySearchResults() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[17-Jun-2021 16:53:02 UTC] PHP Warning:  Use of undefined constant get_the_title - assumed 'get_the_title' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 22
+[17-Jun-2021 16:53:02 UTC] PHP Stack trace:
+[17-Jun-2021 16:53:02 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[17-Jun-2021 16:53:02 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[17-Jun-2021 16:53:02 UTC] PHP   3. wp() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:16
+[17-Jun-2021 16:53:02 UTC] PHP   4. WP->main() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/functions.php:1291
+[17-Jun-2021 16:53:02 UTC] PHP   5. WP->parse_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:750
+[17-Jun-2021 16:53:02 UTC] PHP   6. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:388
+[17-Jun-2021 16:53:02 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[17-Jun-2021 16:53:02 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[17-Jun-2021 16:53:02 UTC] PHP   9. rest_api_loaded() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[17-Jun-2021 16:53:02 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api.php:354
+[17-Jun-2021 16:53:02 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[17-Jun-2021 16:53:02 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[17-Jun-2021 16:53:02 UTC] PHP  13. universitySearchResults() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[17-Jun-2021 16:53:02 UTC] PHP Warning:  Use of undefined constant get_the_permalink - assumed 'get_the_permalink' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 23
+[17-Jun-2021 16:53:02 UTC] PHP Stack trace:
+[17-Jun-2021 16:53:02 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[17-Jun-2021 16:53:02 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[17-Jun-2021 16:53:02 UTC] PHP   3. wp() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:16
+[17-Jun-2021 16:53:02 UTC] PHP   4. WP->main() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/functions.php:1291
+[17-Jun-2021 16:53:02 UTC] PHP   5. WP->parse_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:750
+[17-Jun-2021 16:53:02 UTC] PHP   6. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:388
+[17-Jun-2021 16:53:02 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[17-Jun-2021 16:53:02 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[17-Jun-2021 16:53:02 UTC] PHP   9. rest_api_loaded() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[17-Jun-2021 16:53:02 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api.php:354
+[17-Jun-2021 16:53:02 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[17-Jun-2021 16:53:02 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[17-Jun-2021 16:53:02 UTC] PHP  13. universitySearchResults() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[17-Jun-2021 16:53:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:22) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1642
+[17-Jun-2021 16:53:02 UTC] PHP Stack trace:
+[17-Jun-2021 16:53:02 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[17-Jun-2021 16:53:02 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[17-Jun-2021 16:53:02 UTC] PHP   3. wp() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:16
+[17-Jun-2021 16:53:02 UTC] PHP   4. WP->main() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/functions.php:1291
+[17-Jun-2021 16:53:02 UTC] PHP   5. WP->parse_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:750
+[17-Jun-2021 16:53:02 UTC] PHP   6. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:388
+[17-Jun-2021 16:53:02 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[17-Jun-2021 16:53:02 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[17-Jun-2021 16:53:02 UTC] PHP   9. rest_api_loaded() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[17-Jun-2021 16:53:02 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api.php:354
+[17-Jun-2021 16:53:02 UTC] PHP  11. WP_REST_Server->send_headers() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:444
+[17-Jun-2021 16:53:02 UTC] PHP  12. WP_REST_Server->send_header() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1654
+[17-Jun-2021 16:53:02 UTC] PHP  13. header() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1642
+[17-Jun-2021 16:53:10 UTC] PHP Warning:  Use of undefined constant get_the_title - assumed 'get_the_title' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 22
+[17-Jun-2021 16:53:10 UTC] PHP Stack trace:
+[17-Jun-2021 16:53:10 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[17-Jun-2021 16:53:10 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[17-Jun-2021 16:53:10 UTC] PHP   3. wp() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:16
+[17-Jun-2021 16:53:10 UTC] PHP   4. WP->main() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/functions.php:1291
+[17-Jun-2021 16:53:10 UTC] PHP   5. WP->parse_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:750
+[17-Jun-2021 16:53:10 UTC] PHP   6. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:388
+[17-Jun-2021 16:53:10 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[17-Jun-2021 16:53:10 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[17-Jun-2021 16:53:10 UTC] PHP   9. rest_api_loaded() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[17-Jun-2021 16:53:10 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api.php:354
+[17-Jun-2021 16:53:10 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[17-Jun-2021 16:53:10 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[17-Jun-2021 16:53:10 UTC] PHP  13. universitySearchResults() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[17-Jun-2021 16:53:10 UTC] PHP Warning:  Use of undefined constant get_the_permalink - assumed 'get_the_permalink' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 23
+[17-Jun-2021 16:53:10 UTC] PHP Stack trace:
+[17-Jun-2021 16:53:10 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[17-Jun-2021 16:53:10 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[17-Jun-2021 16:53:10 UTC] PHP   3. wp() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:16
+[17-Jun-2021 16:53:10 UTC] PHP   4. WP->main() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/functions.php:1291
+[17-Jun-2021 16:53:10 UTC] PHP   5. WP->parse_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:750
+[17-Jun-2021 16:53:10 UTC] PHP   6. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:388
+[17-Jun-2021 16:53:10 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[17-Jun-2021 16:53:10 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[17-Jun-2021 16:53:10 UTC] PHP   9. rest_api_loaded() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[17-Jun-2021 16:53:10 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api.php:354
+[17-Jun-2021 16:53:10 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[17-Jun-2021 16:53:10 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[17-Jun-2021 16:53:10 UTC] PHP  13. universitySearchResults() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[17-Jun-2021 16:53:10 UTC] PHP Warning:  Use of undefined constant get_the_title - assumed 'get_the_title' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 22
+[17-Jun-2021 16:53:10 UTC] PHP Stack trace:
+[17-Jun-2021 16:53:10 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[17-Jun-2021 16:53:10 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[17-Jun-2021 16:53:10 UTC] PHP   3. wp() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:16
+[17-Jun-2021 16:53:10 UTC] PHP   4. WP->main() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/functions.php:1291
+[17-Jun-2021 16:53:10 UTC] PHP   5. WP->parse_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:750
+[17-Jun-2021 16:53:10 UTC] PHP   6. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:388
+[17-Jun-2021 16:53:10 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[17-Jun-2021 16:53:10 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[17-Jun-2021 16:53:10 UTC] PHP   9. rest_api_loaded() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[17-Jun-2021 16:53:10 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api.php:354
+[17-Jun-2021 16:53:10 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[17-Jun-2021 16:53:10 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[17-Jun-2021 16:53:10 UTC] PHP  13. universitySearchResults() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[17-Jun-2021 16:53:10 UTC] PHP Warning:  Use of undefined constant get_the_permalink - assumed 'get_the_permalink' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 23
+[17-Jun-2021 16:53:10 UTC] PHP Stack trace:
+[17-Jun-2021 16:53:10 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[17-Jun-2021 16:53:10 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[17-Jun-2021 16:53:10 UTC] PHP   3. wp() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:16
+[17-Jun-2021 16:53:10 UTC] PHP   4. WP->main() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/functions.php:1291
+[17-Jun-2021 16:53:10 UTC] PHP   5. WP->parse_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:750
+[17-Jun-2021 16:53:10 UTC] PHP   6. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:388
+[17-Jun-2021 16:53:10 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[17-Jun-2021 16:53:10 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[17-Jun-2021 16:53:10 UTC] PHP   9. rest_api_loaded() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[17-Jun-2021 16:53:10 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api.php:354
+[17-Jun-2021 16:53:10 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[17-Jun-2021 16:53:10 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[17-Jun-2021 16:53:10 UTC] PHP  13. universitySearchResults() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[17-Jun-2021 16:53:10 UTC] PHP Warning:  Use of undefined constant get_the_title - assumed 'get_the_title' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 22
+[17-Jun-2021 16:53:10 UTC] PHP Stack trace:
+[17-Jun-2021 16:53:10 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[17-Jun-2021 16:53:10 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[17-Jun-2021 16:53:10 UTC] PHP   3. wp() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:16
+[17-Jun-2021 16:53:10 UTC] PHP   4. WP->main() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/functions.php:1291
+[17-Jun-2021 16:53:10 UTC] PHP   5. WP->parse_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:750
+[17-Jun-2021 16:53:10 UTC] PHP   6. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:388
+[17-Jun-2021 16:53:10 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[17-Jun-2021 16:53:10 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[17-Jun-2021 16:53:10 UTC] PHP   9. rest_api_loaded() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[17-Jun-2021 16:53:10 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api.php:354
+[17-Jun-2021 16:53:10 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[17-Jun-2021 16:53:10 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[17-Jun-2021 16:53:10 UTC] PHP  13. universitySearchResults() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[17-Jun-2021 16:53:10 UTC] PHP Warning:  Use of undefined constant get_the_permalink - assumed 'get_the_permalink' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 23
+[17-Jun-2021 16:53:10 UTC] PHP Stack trace:
+[17-Jun-2021 16:53:10 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[17-Jun-2021 16:53:10 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[17-Jun-2021 16:53:10 UTC] PHP   3. wp() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:16
+[17-Jun-2021 16:53:10 UTC] PHP   4. WP->main() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/functions.php:1291
+[17-Jun-2021 16:53:10 UTC] PHP   5. WP->parse_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:750
+[17-Jun-2021 16:53:10 UTC] PHP   6. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:388
+[17-Jun-2021 16:53:10 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[17-Jun-2021 16:53:10 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[17-Jun-2021 16:53:10 UTC] PHP   9. rest_api_loaded() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[17-Jun-2021 16:53:10 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api.php:354
+[17-Jun-2021 16:53:10 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[17-Jun-2021 16:53:10 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[17-Jun-2021 16:53:10 UTC] PHP  13. universitySearchResults() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[17-Jun-2021 16:53:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:22) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1642
+[17-Jun-2021 16:53:10 UTC] PHP Stack trace:
+[17-Jun-2021 16:53:10 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[17-Jun-2021 16:53:10 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[17-Jun-2021 16:53:10 UTC] PHP   3. wp() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:16
+[17-Jun-2021 16:53:10 UTC] PHP   4. WP->main() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/functions.php:1291
+[17-Jun-2021 16:53:10 UTC] PHP   5. WP->parse_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:750
+[17-Jun-2021 16:53:10 UTC] PHP   6. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp.php:388
+[17-Jun-2021 16:53:10 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[17-Jun-2021 16:53:10 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[17-Jun-2021 16:53:10 UTC] PHP   9. rest_api_loaded() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[17-Jun-2021 16:53:11 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api.php:354
+[17-Jun-2021 16:53:11 UTC] PHP  11. WP_REST_Server->send_headers() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:444
+[17-Jun-2021 16:53:11 UTC] PHP  12. WP_REST_Server->send_header() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1654
+[17-Jun-2021 16:53:11 UTC] PHP  13. header() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1642
+[17-Jun-2021 17:08:13 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 15
+[17-Jun-2021 17:08:32 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 15
+[17-Jun-2021 17:08:38 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 15
+[21-Jun-2021 17:45:01 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 50
+[21-Jun-2021 17:45:04 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 50
+[16-Jul-2021 17:24:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_rul() in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-search.php:49
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/mattwood...')
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php(17): require('/Users/mattwood...')
+#3 {main}
+  thrown in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-search.php on line 49
+[16-Jul-2021 17:25:45 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-search.php on line 49
+[16-Jul-2021 17:27:51 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-search.php on line 49
+[16-Jul-2021 17:28:27 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-search.php on line 49
+[02-Aug-2021 19:37:18 UTC] PHP Parse error:  syntax error, unexpected '/' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 29
+[02-Aug-2021 19:39:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_avatar(), 0 passed in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 29 and at least 1 expected in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/pluggable.php:2652
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php(29): get_avatar()
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template.php(730): require_once('/Users/mattwood...')
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/template.php(676): load_template('/Users/mattwood...', true, Array)
+#3 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#4 /Users/mattwood/Local Sites (YellowDog)/fictional-univ in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/pluggable.php on line 2652
+[02-Aug-2021 21:12:35 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 149
+[20-Aug-2021 23:00:18 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php on line 175
+[20-Aug-2021 23:00:18 UTC] PHP Stack trace:
+[20-Aug-2021 23:00:18 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:0
+[20-Aug-2021 23:00:18 UTC] PHP   2. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:138
+[20-Aug-2021 23:00:18 UTC] PHP   3. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[20-Aug-2021 23:00:18 UTC] PHP   4. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[20-Aug-2021 23:00:18 UTC] PHP   5. wp_version_check() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[20-Aug-2021 23:00:18 UTC] PHP   6. trigger_error() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:175
+[20-Aug-2021 23:00:18 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php on line 410
+[20-Aug-2021 23:00:18 UTC] PHP Stack trace:
+[20-Aug-2021 23:00:18 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:0
+[20-Aug-2021 23:00:18 UTC] PHP   2. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:138
+[20-Aug-2021 23:00:18 UTC] PHP   3. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[20-Aug-2021 23:00:18 UTC] PHP   4. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[20-Aug-2021 23:00:18 UTC] PHP   5. wp_update_plugins() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[20-Aug-2021 23:00:18 UTC] PHP   6. trigger_error() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:410
+[20-Aug-2021 23:00:18 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php on line 614
+[20-Aug-2021 23:00:18 UTC] PHP Stack trace:
+[20-Aug-2021 23:00:18 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:0
+[20-Aug-2021 23:00:18 UTC] PHP   2. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:138
+[20-Aug-2021 23:00:18 UTC] PHP   3. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[20-Aug-2021 23:00:18 UTC] PHP   4. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[20-Aug-2021 23:00:18 UTC] PHP   5. wp_update_themes() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[20-Aug-2021 23:00:18 UTC] PHP   6. trigger_error() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:614
+[21-Aug-2021 07:47:25 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php on line 175
+[21-Aug-2021 07:47:25 UTC] PHP Stack trace:
+[21-Aug-2021 07:47:25 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:0
+[21-Aug-2021 07:47:25 UTC] PHP   2. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:138
+[21-Aug-2021 07:47:25 UTC] PHP   3. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[21-Aug-2021 07:47:25 UTC] PHP   4. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[21-Aug-2021 07:47:25 UTC] PHP   5. wp_version_check() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[21-Aug-2021 07:47:25 UTC] PHP   6. trigger_error() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:175
+[21-Aug-2021 07:47:25 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php on line 410
+[21-Aug-2021 07:47:25 UTC] PHP Stack trace:
+[21-Aug-2021 07:47:25 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:0
+[21-Aug-2021 07:47:25 UTC] PHP   2. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:138
+[21-Aug-2021 07:47:25 UTC] PHP   3. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[21-Aug-2021 07:47:25 UTC] PHP   4. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[21-Aug-2021 07:47:25 UTC] PHP   5. wp_update_plugins() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[21-Aug-2021 07:47:25 UTC] PHP   6. trigger_error() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:410
+[21-Aug-2021 07:47:25 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php on line 614
+[21-Aug-2021 07:47:25 UTC] PHP Stack trace:
+[21-Aug-2021 07:47:25 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:0
+[21-Aug-2021 07:47:25 UTC] PHP   2. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:138
+[21-Aug-2021 07:47:25 UTC] PHP   3. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[21-Aug-2021 07:47:25 UTC] PHP   4. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[21-Aug-2021 07:47:25 UTC] PHP   5. wp_update_themes() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[21-Aug-2021 07:47:25 UTC] PHP   6. trigger_error() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:614
+[22-Aug-2021 00:15:29 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/includes/update.php on line 143
+[22-Aug-2021 00:15:29 UTC] PHP Stack trace:
+[22-Aug-2021 00:15:29 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:0
+[22-Aug-2021 00:15:29 UTC] PHP   2. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:138
+[22-Aug-2021 00:15:29 UTC] PHP   3. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[22-Aug-2021 00:15:29 UTC] PHP   4. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[22-Aug-2021 00:15:29 UTC] PHP   5. WP_Site_Health->wp_cron_scheduled_check() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[22-Aug-2021 00:15:29 UTC] PHP   6. WP_Site_Health->perform_test() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/includes/class-wp-site-health.php:2743
+[22-Aug-2021 00:15:29 UTC] PHP   7. WP_Site_Health->get_test_background_updates() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/includes/class-wp-site-health.php:177
+[22-Aug-2021 00:15:29 UTC] PHP   8. WP_Site_Health_Auto_Updates->run_tests() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/includes/class-wp-site-health.php:1787
+[22-Aug-2021 00:15:29 UTC] PHP   9. WP_Site_Health_Auto_Updates->test_all_files_writable() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/includes/class-wp-site-health-auto-updates.php:37
+[22-Aug-2021 00:15:29 UTC] PHP  10. get_core_checksums() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/includes/class-wp-site-health-auto-updates.php:332
+[22-Aug-2021 00:15:29 UTC] PHP  11. trigger_error() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/includes/update.php:143
+[22-Aug-2021 12:18:18 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php on line 410
+[22-Aug-2021 12:18:18 UTC] PHP Stack trace:
+[22-Aug-2021 12:18:18 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:0
+[22-Aug-2021 12:18:18 UTC] PHP   2. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:138
+[22-Aug-2021 12:18:18 UTC] PHP   3. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[22-Aug-2021 12:18:18 UTC] PHP   4. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[22-Aug-2021 12:18:18 UTC] PHP   5. wp_version_check() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[22-Aug-2021 12:18:18 UTC] PHP   6. do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:256
+[22-Aug-2021 12:18:18 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:484
+[22-Aug-2021 12:18:18 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[22-Aug-2021 12:18:18 UTC] PHP   9. wp_maybe_auto_update() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[22-Aug-2021 12:18:18 UTC] PHP  10. WP_Automatic_Updater->run() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:650
+[22-Aug-2021 12:18:18 UTC] PHP  11. wp_update_plugins() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/includes/class-wp-automatic-updater.php:457
+[22-Aug-2021 12:18:18 UTC] PHP  12. trigger_error() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:410
+[22-Aug-2021 12:18:20 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php on line 614
+[22-Aug-2021 12:18:20 UTC] PHP Stack trace:
+[22-Aug-2021 12:18:20 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:0
+[22-Aug-2021 12:18:20 UTC] PHP   2. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:138
+[22-Aug-2021 12:18:20 UTC] PHP   3. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[22-Aug-2021 12:18:20 UTC] PHP   4. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[22-Aug-2021 12:18:20 UTC] PHP   5. wp_version_check() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[22-Aug-2021 12:18:20 UTC] PHP   6. do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:256
+[22-Aug-2021 12:18:20 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:484
+[22-Aug-2021 12:18:20 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[22-Aug-2021 12:18:20 UTC] PHP   9. wp_maybe_auto_update() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[22-Aug-2021 12:18:20 UTC] PHP  10. WP_Automatic_Updater->run() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:650
+[22-Aug-2021 12:18:20 UTC] PHP  11. wp_update_themes() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/includes/class-wp-automatic-updater.php:468
+[22-Aug-2021 12:18:20 UTC] PHP  12. trigger_error() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:614
+[22-Aug-2021 12:18:20 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php on line 175
+[22-Aug-2021 12:18:20 UTC] PHP Stack trace:
+[22-Aug-2021 12:18:20 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:0
+[22-Aug-2021 12:18:20 UTC] PHP   2. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:138
+[22-Aug-2021 12:18:20 UTC] PHP   3. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[22-Aug-2021 12:18:20 UTC] PHP   4. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[22-Aug-2021 12:18:20 UTC] PHP   5. wp_version_check() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[22-Aug-2021 12:18:20 UTC] PHP   6. do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:256
+[22-Aug-2021 12:18:20 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:484
+[22-Aug-2021 12:18:20 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[22-Aug-2021 12:18:20 UTC] PHP   9. wp_maybe_auto_update() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[22-Aug-2021 12:18:20 UTC] PHP  10. WP_Automatic_Updater->run() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:650
+[22-Aug-2021 12:18:20 UTC] PHP  11. wp_version_check() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/includes/class-wp-automatic-updater.php:479
+[22-Aug-2021 12:18:20 UTC] PHP  12. trigger_error() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:175
+[22-Aug-2021 12:18:20 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php on line 614
+[22-Aug-2021 12:18:20 UTC] PHP Stack trace:
+[22-Aug-2021 12:18:20 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:0
+[22-Aug-2021 12:18:20 UTC] PHP   2. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:138
+[22-Aug-2021 12:18:20 UTC] PHP   3. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[22-Aug-2021 12:18:20 UTC] PHP   4. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[22-Aug-2021 12:18:20 UTC] PHP   5. wp_version_check() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[22-Aug-2021 12:18:20 UTC] PHP   6. do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:256
+[22-Aug-2021 12:18:20 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:484
+[22-Aug-2021 12:18:20 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[22-Aug-2021 12:18:20 UTC] PHP   9. wp_maybe_auto_update() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[22-Aug-2021 12:18:20 UTC] PHP  10. WP_Automatic_Updater->run() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:650
+[22-Aug-2021 12:18:20 UTC] PHP  11. wp_update_themes() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/includes/class-wp-automatic-updater.php:494
+[22-Aug-2021 12:18:20 UTC] PHP  12. trigger_error() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:614
+[22-Aug-2021 12:18:20 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php on line 410
+[22-Aug-2021 12:18:20 UTC] PHP Stack trace:
+[22-Aug-2021 12:18:20 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:0
+[22-Aug-2021 12:18:20 UTC] PHP   2. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:138
+[22-Aug-2021 12:18:20 UTC] PHP   3. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[22-Aug-2021 12:18:20 UTC] PHP   4. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[22-Aug-2021 12:18:20 UTC] PHP   5. wp_version_check() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[22-Aug-2021 12:18:20 UTC] PHP   6. do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:256
+[22-Aug-2021 12:18:20 UTC] PHP   7. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:484
+[22-Aug-2021 12:18:20 UTC] PHP   8. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[22-Aug-2021 12:18:20 UTC] PHP   9. wp_maybe_auto_update() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[22-Aug-2021 12:18:20 UTC] PHP  10. WP_Automatic_Updater->run() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:650
+[22-Aug-2021 12:18:20 UTC] PHP  11. wp_update_plugins() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-admin/includes/class-wp-automatic-updater.php:502
+[22-Aug-2021 12:18:20 UTC] PHP  12. trigger_error() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:410
+[22-Aug-2021 12:18:20 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php on line 410
+[22-Aug-2021 12:18:20 UTC] PHP Stack trace:
+[22-Aug-2021 12:18:20 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:0
+[22-Aug-2021 12:18:20 UTC] PHP   2. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:138
+[22-Aug-2021 12:18:20 UTC] PHP   3. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[22-Aug-2021 12:18:20 UTC] PHP   4. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[22-Aug-2021 12:18:20 UTC] PHP   5. wp_update_plugins() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[22-Aug-2021 12:18:20 UTC] PHP   6. trigger_error() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:410
+[22-Aug-2021 12:18:20 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php on line 614
+[22-Aug-2021 12:18:20 UTC] PHP Stack trace:
+[22-Aug-2021 12:18:20 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:0
+[22-Aug-2021 12:18:20 UTC] PHP   2. do_action_ref_array() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-cron.php:138
+[22-Aug-2021 12:18:20 UTC] PHP   3. WP_Hook->do_action() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:551
+[22-Aug-2021 12:18:20 UTC] PHP   4. WP_Hook->apply_filters() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[22-Aug-2021 12:18:20 UTC] PHP   5. wp_update_themes() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[22-Aug-2021 12:18:20 UTC] PHP   6. trigger_error() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/update.php:614
+[30-Nov-2021 22:52:47 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 11
+[30-Nov-2021 22:53:12 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 11
+[30-Nov-2021 22:53:16 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 11
+[30-Nov-2021 22:53:18 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 11
+[30-Nov-2021 22:53:18 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 11
+[30-Nov-2021 22:53:18 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 11
+[30-Nov-2021 22:53:23 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 11
+[30-Nov-2021 22:53:31 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 11
+[14-Dec-2021 23:16:33 UTC] PHP Parse error:  syntax error, unexpected '$existQuery' (T_VARIABLE) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 33
+[16-Dec-2021 20:59:12 UTC] PHP Warning:  Use of undefined constant rest_api_init - assumed 'rest_api_init' (this will throw an Error in a future version of PHP) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 3
+[16-Dec-2021 20:59:12 UTC] PHP Stack trace:
+[16-Dec-2021 20:59:12 UTC] PHP   1. {main}() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:0
+[16-Dec-2021 20:59:12 UTC] PHP   2. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/index.php:17
+[16-Dec-2021 20:59:12 UTC] PHP   3. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-blog-header.php:13
+[16-Dec-2021 20:59:12 UTC] PHP   4. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-load.php:50
+[16-Dec-2021 20:59:12 UTC] PHP   5. require_once() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-config.php:77
+[16-Dec-2021 20:59:12 UTC] PHP   6. include() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-settings.php:546
+[16-Dec-2021 20:59:12 UTC] PHP   7. require() /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+[16-Dec-2021 20:59:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 3 and at least 2 expected in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php:394
+Stack trace:
+#0 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php(3): add_action('rest_api_init')
+#1 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php(3): require('/Users/mattwood...')
+#2 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-settings.php(546): include('/Users/mattwood...')
+#3 /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-config.php(77): require_once('/Users/mattwood...')
+#4 /Users/mattwood/Local Sites (YellowDog)/fictional-univer in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-includes/plugin.php on line 394
+[16-Dec-2021 21:27:25 UTC] PHP Parse error:  syntax error, unexpected ''post_'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 22
+[16-Dec-2021 21:39:38 UTC] PHP Parse error:  syntax error, unexpected 'wp_insert_post' (T_STRING) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 20
+[16-Dec-2021 22:08:21 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 18
+[16-Dec-2021 22:09:17 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 18
+[16-Dec-2021 22:11:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 22
+[16-Dec-2021 22:13:19 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 31
+[16-Dec-2021 22:15:22 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 31
+[16-Dec-2021 22:17:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 31
+[16-Dec-2021 22:18:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 31
+[16-Dec-2021 22:18:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 31
+[16-Dec-2021 22:19:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 31
+[16-Dec-2021 22:27:33 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 21
+[16-Dec-2021 22:27:33 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 21
+[16-Dec-2021 22:27:53 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 21
+[16-Dec-2021 22:29:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 43
+[16-Dec-2021 22:29:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 43
+[16-Dec-2021 22:37:33 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 37
+[16-Dec-2021 22:37:37 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 37
+[16-Dec-2021 22:53:07 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 52
+[16-Dec-2021 23:12:17 UTC] PHP Parse error:  syntax error, unexpected ''like'' (T_CONSTANT_ENCAPSED_STRING) in /Users/mattwood/Local Sites (YellowDog)/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 54
